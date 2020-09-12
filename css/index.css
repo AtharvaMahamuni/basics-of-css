@@ -1,0 +1,48 @@
+/* This is css file for index */
+
+h1 {
+  color: #2c3335;
+}
+
+body {
+  text-align: center;
+}
+
+/* In this block we have written a code which will
+convert the text color red when we hover mouse pointer on it */
+#wu:hover {
+  color: #e71c23;
+}
+#wu {
+  color: #ae1438;
+}
+
+h1 a:hover {
+  color: #e71c23;
+}
+
+.chess-board {
+  border-radius: 40px;
+}
+
+.mate-in-one {
+  box-shadow: 8px 5px red;
+  /* border-radius: 40px; */
+}
+
+.mate-in-two {
+  height: 310px;
+  width: 310px;
+  box-shadow: 8px 5px #192a56;
+}
+
+.chess-board:hover {
+  box-shadow: 10px 10px red;
+  border-radius: 100px;
+}
+
+.blue-rectangle:hover {
+  box-shadow: -4px 2px 43px 0px rgba(0, 0, 0, 0.67);
+  box-shadow: -4px 2px 43px 0px rgba(0, 0, 0, 0.67);
+  box-shadow: -4px 2px 43px 0px rgba(0, 0, 0, 0.67);
+}
